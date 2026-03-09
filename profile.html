@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowTrack - Profile</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+  <header>
+    <button id="backBtn">← Back</button>
+    <h1>Profile</h1>
+    <button id="themeToggle">🌓</button>
+  </header>
+
+  <main>
+    <section class="profile-section">
+      <label for="profileName">Name:</label>
+      <input type="text" id="profileName" placeholder="Your Name">
+
+      <label for="profileBio">Bio:</label>
+      <textarea id="profileBio" placeholder="Write something about yourself..."></textarea>
+
+      <label for="profilePic">Profile Picture:</label>
+      <input type="file" id="profilePic">
+      <img id="profilePreview" src="" alt="Profile Preview">
+
+      <button id="saveProfile">Save Profile</button>
+    </section>
+  </main>
+
+  <script src="js/profile.js"></script>
+  <script src="js/theme.js"></script>
+</body>
+</html>

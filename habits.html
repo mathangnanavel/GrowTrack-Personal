@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowTrack - Habits Tracker</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/habits.css">
+</head>
+<body>
+  <header>
+    <h1>Habits Tracker</h1>
+    <button type="button" id="backBtn">← Back</button>
+    <button type="button" id="themeToggle">🌓</button>
+  </header>
+
+  <main>
+    <section class="habit-form">
+      <input type="text" id="habitName" placeholder="Add new habit..." />
+      <button id="addHabitBtn">Add</button>
+    </section>
+
+    <section class="habit-progress">
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p>Completed <span id="completedCount">0</span>/<span id="totalCount">0</span></p>
+    </section>
+
+    <section class="habit-list-section">
+      <ul id="habitList"></ul>
+    </section>
+  </main>
+
+  <script src="js/habits.js"></script>
+  <script src="js/theme.js"></script>
+</body>
+</html>
