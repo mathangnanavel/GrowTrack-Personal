@@ -1,23 +1,47 @@
-# GrowTrack – Habit Tracking Web App 🚀
+# 🌱 GrowTrack – Habit Tracker Web Application
 
-GrowTrack is a simple and modern habit tracking web application that helps users build positive habits and monitor their progress. The application allows users to add habits, track daily completion, view analytics, and manage their personal profile.
+## 📌 About the Project
+GrowTrack is a frontend-based habit tracking web application designed to help users build consistency by tracking daily habits and maintaining streaks.  
+The project focuses on clean UI, simple logic, and real-time progress tracking using browser storage.
 
----
-
-## 📌 Features
-
-* ✅ Add and manage daily habits
-* 📊 Habit analytics dashboard
-* 📅 Calendar-based habit tracking
-* 👤 User profile section
-* 📱 Responsive design for mobile and desktop
-* 💾 Local storage for saving user habits
+This project was fully designed and developed using **HTML, CSS, and JavaScript** without any external frameworks.
 
 ---
 
-## 🗂 Project Structure
+## 🎯 Purpose of the Project
+- To practice real-world frontend development  
+- To understand DOM manipulation and LocalStorage  
+- To build a multi-page interactive web application  
+- To track habits and visualize progress effectively  
 
-```
+---
+
+## ✨ Key Features
+- 📋 Habit management system  
+- ✅ Mark habits as completed  
+- 📊 Dashboard with:
+  - Total Habits  
+  - Completed Habits  
+  - Current Streak  
+  - Streak Days displayed in a separate card  
+- 📅 Calendar page to track daily habit completion  
+- 👤 Profile page:
+  - Update name and bio  
+  - Upload profile picture  
+  - Data persists using LocalStorage  
+- 💾 All data stored locally in the browser  
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5** – Page structure  
+- **CSS3** – Styling and layout  
+- **JavaScript (Vanilla JS)** – Logic and interactivity  
+- **LocalStorage** – Data persistence  
+
+---
+
+## 📂 Project Structure
 GrowTrack
 │
 ├── index.html
@@ -37,6 +61,7 @@ GrowTrack
 │
 ├── js/
 │   ├── app.js
+├   |── dashboard.js
 │   ├── habits.js
 │   ├── analytics.js
 │   ├── calendar.js
@@ -103,6 +128,7 @@ Handles all application logic and interactivity.
 | File         | Purpose                           |
 | ------------ | --------------------------------- |
 | app.js       | Global scripts and initialization |
+| dashboard.js | main function of app              |
 | habits.js    | Habit CRUD operations             |
 | analytics.js | Habit statistics and chart logic  |
 | calendar.js  | Calendar tracking functionality   |
@@ -139,7 +165,7 @@ Optional enhancements may include:
 
 Developed by **Mathan**
 
----
+--
 
 ## 📜 License
 
